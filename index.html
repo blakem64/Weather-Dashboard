@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather Dashboard</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+
+<body>
+
+  <header>
+    <h1> Weather Dashboard </h1>
+  </header>
+
+
+  <!--The main content-->
+  <main>
+
+    <!---The left section that has the search for cities functionality-->
+  <section class="left section">
+  <!---form for the search-->
+  <form>
+    <label for="search-city">Search for city</label>
+    <input id="search-city" type="text" placeholder="Enter the city name" />
+    <button type="submit">Search</button>
+
+  </form>
+  
+  <!---div element to show the list of cities-->
+  <div class="list-cities">
+    <p>
+      Denver
+    </p>
+    <p>
+      New York
+    </p>
+    <p>
+      Austin
+    </p>
+
+
+  </div>
+
+  </section>
+
+  <!---the right section that has the show city details functionality-->
+
+  <section class="right-section">
+    <!---city details box-->
+    <div id="today">
+      <h1> New York 12/4/2022 <h1>
+        <p>Temp: <span> </span> &deg;F</p>
+        <p>Wind: <span></span> MPH </p>
+        <p> Humidity: <span></span> %</p>
+
+
+    </div>
+
+
+    <!---weather cards box-->
+    <div id="cards">
+      <h1>5 Day Forecast</h1>
+      <ul class="list-cards">
+
+        <!--card1-->
+        <li>
+          <h1>3/10/2022</h1>
+          <p>
+            <img>
+          </p>
+          <p>Temp: <span> </span> &deg;F</p>
+          <p>Wind: <span></span> MPH </p>
+          <p> Humidity: <span></span> %</p>
+        </li>
+
+        <!---card2-->
+        <li>
+          <h1>3/10/2022</h1>
+          <p>
+            <img>
+          </p>
+          <p>Temp: <span> </span> &deg;F</p>
+          <p>Wind: <span></span> MPH </p>
+          <p> Humidity: <span></span> %</p>
+        </li>
+
+        <!---card3-->
+        <li>
+          <h1>3/10/2022</h1>
+          <p>
+            <img>
+          </p>
+          <p>Temp: <span> </span> &deg;F</p>
+          <p>Wind: <span></span> MPH </p>
+          <p> Humidity: <span></span> %</p>
+        </li>
+
+        <!---card4-->
+        <li>
+          <h1>3/10/2022</h1>
+          <p>
+            <img>
+          </p>
+          <p>Temp: <span> </span> &deg;F</p>
+          <p>Wind: <span></span> MPH </p>
+          <p> Humidity: <span></span> %</p>
+        </li>
+
+        <!---card5-->
+        <li>
+          <h1>3/10/2022</h1>
+          <p>
+            <img>
+          </p>
+          <p>Temp: <span> </span> &deg;F</p>
+          <p>Wind: <span></span> MPH </p>
+          <p> Humidity: <span></span> %</p>
+        </li>
+
+
+
+        </ul>
+      
+      </div>
+  
+  </section>
+
+  </main>
+  
+  <script src="script.js"></script>
+
+
+</body>
+
+
+</html>
