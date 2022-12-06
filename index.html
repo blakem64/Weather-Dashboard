@@ -24,25 +24,20 @@
   <section class="left section">
   <!---form for the search-->
   <form>
-    <label for="search-city">Search for city</label>
-    <input id="search-city" type="text" placeholder="Enter the city name" />
-    <button type="submit">Search</button>
+    <h1>Enter the city coordinates</h1>
+    <label for="search-city-lon">lon</label>
+    <input id="search-city-lon" type="text" placeholder="Enter the lon of city " />
+
+    <label for="search-city-lat">lat</label>
+    <input id="search-city-lat" type="text" placeholder="Enter the lat of city " />
+    <button class="submit-btn" type="submit">Search</button>
+
 
   </form>
   
   <!---div element to show the list of cities-->
   <div class="list-cities">
-    <p>
-      Denver
-    </p>
-    <p>
-      New York
-    </p>
-    <p>
-      Austin
-    </p>
-
-
+ 
   </div>
 
   </section>
@@ -51,11 +46,12 @@
 
   <section class="right-section">
     <!---city details box-->
-    <div id="today">
-      <h1> New York 12/4/2022 <h1>
-        <p>Temp: <span> </span> &deg;F</p>
-        <p>Wind: <span></span> MPH </p>
-        <p> Humidity: <span></span> %</p>
+    <div id="city">
+      <h1 class="today"> New York 12/4/2022 <h1><img class="today-icon" src="#" />
+
+        <p>Temp: <span class="current-temp"> </span> &deg;F</p>
+        <p>Wind: <span class="mph"></span> MPH </p>
+        <p> Humidity: <span class="humidity"></span> %</p>
 
 
     </div>
@@ -68,7 +64,7 @@
 
         <!--card1-->
         <li>
-          <h1>3/10/2022</h1>
+          <h1>12/06/2022</h1>
           <p>
             <img>
           </p>
@@ -79,7 +75,7 @@
 
         <!---card2-->
         <li>
-          <h1>3/10/2022</h1>
+          <h1>12/07/2022</h1>
           <p>
             <img>
           </p>
@@ -90,7 +86,7 @@
 
         <!---card3-->
         <li>
-          <h1>3/10/2022</h1>
+          <h1>12/08/2022</h1>
           <p>
             <img>
           </p>
@@ -101,7 +97,7 @@
 
         <!---card4-->
         <li>
-          <h1>3/10/2022</h1>
+          <h1>12/09/2022</h1>
           <p>
             <img>
           </p>
@@ -112,7 +108,7 @@
 
         <!---card5-->
         <li>
-          <h1>3/10/2022</h1>
+          <h1>12/10/2022</h1>
           <p>
             <img>
           </p>
@@ -130,8 +126,10 @@
   </section>
 
   </main>
-  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" 
+  integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="script.js"></script>
+  
 
 
 </body>

@@ -116,3 +116,7 @@ label{
     flex-direction:column;
   }
 }
+
+img{
+  width:75px;
+}
